@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://my-json-server.typicode.com/HARIHARASUDAN15/todo-crud",
+  baseURL: "http://localhost:3001",
   headers: { "Content-Type": "application/json" }
 });
 
